@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "eslint *.js && nodemon server.js"
+    "start": "eslint *.js && nodemon --watch api server.js"
   },
   "author": "",
   "license": "ISC",
